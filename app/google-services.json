@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "370457102424",
+    "firebase_url": "https://accounting-10a6e.firebaseio.com",
+    "project_id": "accounting-10a6e",
+    "storage_bucket": "accounting-10a6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370457102424:android:d1d714c77f82e7fb",
+        "android_client_info": {
+          "package_name": "com.example.agc_linux.accounting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "370457102424-i8qv4sjl3chf0k5n5kd1e15cdb51iffo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.agc_linux.accounting",
+            "certificate_hash": "181f00178a22845d6ca246f50580f597f92a187a"
+          }
+        },
+        {
+          "client_id": "370457102424-uvqk5s6qrm8q30vsugvts7km0e9hqm9t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEAdIN9zu7COp9AtN2aQrCaEy0Q6Q84Us"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "370457102424-uvqk5s6qrm8q30vsugvts7km0e9hqm9t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

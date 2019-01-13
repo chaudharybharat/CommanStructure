@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/home/agc-linux/Documents/google-services-master/android/Accounting/library/build/intermediates/res/merged/release/color/abc_primary_text_material_dark.xml",
+        "source": "/home/agc-linux/.android/build-cache/582877b69e52c998bf953a3c30bb08501c137448/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/agc-linux/Documents/google-services-master/android/Accounting/library/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/home/agc-linux/.android/build-cache/582877b69e52c998bf953a3c30bb08501c137448/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/home/agc-linux/Documents/google-services-master/android/Accounting/library/build/intermediates/res/merged/release/color/abc_secondary_text_material_dark.xml",
+        "source": "/home/agc-linux/.android/build-cache/582877b69e52c998bf953a3c30bb08501c137448/output/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/agc-linux/Documents/google-services-master/android/Accounting/library/build/intermediates/res/merged/release/color/abc_secondary_text_material_light.xml",
+        "source": "/home/agc-linux/.android/build-cache/582877b69e52c998bf953a3c30bb08501c137448/output/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/home/agc-linux/Documents/google-services-master/android/Accounting/library/build/intermediates/res/merged/release/color/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/agc-linux/.android/build-cache/582877b69e52c998bf953a3c30bb08501c137448/output/res/color/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/home/agc-linux/Documents/google-services-master/android/Accounting/library/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/home/agc-linux/.android/build-cache/582877b69e52c998bf953a3c30bb08501c137448/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/home/agc-linux/Documents/google-services-master/android/Accounting/library/build/intermediates/res/merged/release/color/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/agc-linux/.android/build-cache/582877b69e52c998bf953a3c30bb08501c137448/output/res/color/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/agc-linux/Documents/google-services-master/android/Accounting/library/build/intermediates/res/merged/release/color/abc_search_url_text.xml",
+        "source": "/home/agc-linux/.android/build-cache/582877b69e52c998bf953a3c30bb08501c137448/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/home/agc-linux/Documents/google-services-master/android/Accounting/library/build/intermediates/res/merged/release/color/abc_primary_text_material_light.xml",
+        "source": "/home/agc-linux/.android/build-cache/582877b69e52c998bf953a3c30bb08501c137448/output/res/color/abc_primary_text_material_light.xml"
+    }
+]

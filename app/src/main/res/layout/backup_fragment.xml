@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.agc_linux.accounting.fragment.BackupFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/dp_10"
+    android:layout_marginLeft="@dimen/dp_30"
+    android:layout_marginRight="@dimen/dp_30"
+    android:layout_gravity="center"
+    android:gravity="center"
+    >
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        card_view:cardBackgroundColor="@color/colorPrimary"
+        android:layout_margin="@dimen/dp_10"
+        android:layout_height="@dimen/dp_50"
+        card_view:cardCornerRadius="4dp">
+    <TextView
+        android:id="@+id/btn_backup"
+        android:layout_width="wrap_content"
+        android:drawablePadding="@dimen/dp_10"
+        android:layout_height="45dp"
+        android:paddingStart="@dimen/dp_10"
+        android:drawableLeft="@drawable/upload_sd"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_above="@+id/btnCloudRestore"
+        android:text="@string/activity_backup_btnBackup" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        card_view:cardBackgroundColor="@color/colorPrimary"
+        android:layout_margin="@dimen/dp_10"
+        android:layout_height="@dimen/dp_50"
+        card_view:cardCornerRadius="4dp">
+        <TextView
+            android:id="@+id/btn_import"
+            android:layout_width="wrap_content"
+            android:drawablePadding="@dimen/dp_10"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:paddingStart="@dimen/dp_10"
+            android:drawableLeft="@drawable/download_sd"
+            android:layout_above="@+id/btnCloudRestore"
+            android:text="@string/activity_backup_btnRestore" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        card_view:cardBackgroundColor="@color/colorPrimary"
+        android:layout_margin="@dimen/dp_10"
+        android:layout_height="@dimen/dp_50"
+        card_view:cardCornerRadius="4dp">
+        <TextView
+            android:id="@+id/btn_clound_backup"
+            android:layout_width="wrap_content"
+            android:drawablePadding="@dimen/dp_10"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:paddingStart="@dimen/dp_10"
+            android:drawableLeft="@drawable/cloud_upload"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_above="@+id/btnCloudRestore"
+            android:text="@string/activity_backup_btnCloudBackup"  />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        card_view:cardBackgroundColor="@color/colorPrimary"
+        android:layout_margin="@dimen/dp_10"
+        android:layout_height="@dimen/dp_50"
+        card_view:cardCornerRadius="4dp">
+        <TextView
+            android:id="@+id/btn_could_import"
+            android:layout_width="wrap_content"
+            android:drawablePadding="@dimen/dp_10"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:paddingStart="@dimen/dp_10"
+            android:drawableLeft="@drawable/cloud_download"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_above="@+id/btnCloudRestore"
+            android:text="@string/activity_backup_btnCloudRestore" />
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        card_view:cardBackgroundColor="@color/colorPrimary"
+        android:layout_margin="@dimen/dp_10"
+        android:layout_height="@dimen/dp_50"
+        card_view:cardCornerRadius="4dp">
+        <TextView
+            android:id="@+id/btn_clear_database"
+            android:paddingStart="@dimen/dp_10"
+            android:drawableLeft="@drawable/clear_database"
+            android:layout_width="wrap_content"
+            android:drawablePadding="@dimen/dp_10"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_above="@+id/btnCloudRestore"
+            android:text="@string/clear_database"  />
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,70 @@
+apply plugin: 'com.android.application'
+def dbflow_version = "4.0.3"
+android {
+
+    compileSdkVersion 26
+    buildToolsVersion "26.0.0"
+    defaultConfig {
+        applicationId "com.example.agc_linux.accounting"
+        minSdkVersion 21
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile project(':micommonmodule')
+
+    // your app's other dependencies
+
+
+    annotationProcessor "com.github.Raizlabs.DBFlow:dbflow-processor:${dbflow_version}"
+    compile "com.github.Raizlabs.DBFlow:dbflow-core:${dbflow_version}"
+    compile "com.github.Raizlabs.DBFlow:dbflow:${dbflow_version}"
+
+    //google drive
+
+    /*compile 'com.google.android.gms:play-services-fitness:9.6.1'
+    compile 'com.google.android.gms:play-services-wearable:9.6.1'*/
+
+//covert xle in database table
+    compile files('libs/jxl.jar')
+
+    compile 'com.android.support:appcompat-v7:26.+'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:cardview-v7:26.+'
+    compile 'com.android.support:design:26.+'
+    compile 'com.google.firebase:firebase-core:9.6.1'
+    compile 'com.google.firebase:firebase-database:9.6.1'
+    compile 'com.google.firebase:firebase-auth:9.6.1'
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'com.yarolegovich:lovely-dialog:1.0.4'
+    compile 'com.android.support:percent:26.+'
+    compile 'com.jakewharton:butterknife:8.8.0'
+    compile 'com.facebook.fresco:fresco:1.5.0'
+    compile 'com.android.support:multidex:1.0.0'
+    compile 'com.android.support:support-v4:26.+'
+    compile 'com.android.support:recyclerview-v7:26.+'
+    compile 'com.daimajia.swipelayout:library:1.2.0@aar'
+    compile 'com.google.firebase:firebase-storage:9.6.1'
+    compile 'com.google.android.gms:play-services:9.6.1'
+    testCompile 'junit:junit:4.12'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.0'
+}
+
+
+
+apply plugin: 'com.google.gms.google-services'

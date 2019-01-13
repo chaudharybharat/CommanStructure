@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.example.agc_linux.accounting.fragment.PaymentDateFragment">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/blue"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_margin="@dimen/dp_10"
+    android:background="@drawable/edit_text_bg"
+    android:padding="@dimen/dp_10"
+    android:id="@+id/tv_paymet_text"
+    android:textStyle="bold"
+    android:text="@string/today_payment_date_customer_list"/>
+  <android.support.v7.widget.RecyclerView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_below="@+id/tv_paymet_text"
+      android:id="@+id/recycler_view">
+  </android.support.v7.widget.RecyclerView>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textStyle="bold"
+      android:visibility="gone"
+      android:gravity="center"
+      android:textColor="@color/black"
+      android:layout_centerInParent="true"
+      android:id="@+id/tv_not_found"
+      android:text="@string/customer_payment_data_not"/>
+
+</RelativeLayout>
